@@ -8,7 +8,7 @@ spec:
   - host: sparkjava.maheswargoud.xyz
     http:
       paths:
-      - path: /sparkjava-hello-world-14
+      - path: /sparkjava-hello-world-1.0
         pathType: Prefix
         backend:
           service:
