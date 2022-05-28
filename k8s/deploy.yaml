@@ -4,7 +4,7 @@ metadata:
   name: sparkjava-deployment
   labels:
     app: sparkjava
-  namespace: sparkjava
+  namespace: reddy
 spec:
   replicas: 3
   selector:
@@ -17,6 +17,6 @@ spec:
     spec:
       containers:
       - name: sparkjava
-        image: 861531569385.dkr.ecr.us-east-2.amazonaws.com/sparkjava:number
+        image: 357898765396.dkr.ecr.ap-southeast-1.amazonaws.com/k8s-pipeline:number
         ports:
         - containerPort: 8080
