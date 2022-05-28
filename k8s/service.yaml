@@ -2,11 +2,11 @@ kind: Service
 apiVersion: v1
 metadata:
   name:  sparkjava-svc
-  namespace: sparkjava
+  namespace: reddy
 spec:
   selector:
     app:  sparkjava
-  type:  ClusterIP 
+  type:  LoadBalancer 
   ports:
   - name:  sparkjava
     port:  80
